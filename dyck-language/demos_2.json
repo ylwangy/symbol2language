@@ -1,0 +1,2502 @@
+[
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "0"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "1"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "2"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: [ [ ] < >\noutput 3: ",
+        "task_name": "3"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "4"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "5"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "6"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "7"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "8"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "9"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "10"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "11"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "12"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "13"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "14"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: ( ( { } )\noutput 3: ",
+        "task_name": "15"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "16"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "17"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "18"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "19"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "20"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: < > {\noutput 3: ",
+        "task_name": "21"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "22"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "23"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "24"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "25"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < < >\noutput 2: >\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "26"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "27"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "28"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "29"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( [ { } ]\noutput 3: ",
+        "task_name": "30"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "31"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "32"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < >\noutput 2: >\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "33"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: ( { }\noutput 3: ",
+        "task_name": "34"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "35"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "36"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "37"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "38"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "39"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "40"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < { } > [\noutput 3: ",
+        "task_name": "41"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "42"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: < ( ( ) )\noutput 3: ",
+        "task_name": "43"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "44"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "45"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "46"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "47"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "48"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: < < >\noutput 2: >\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "49"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( { }\noutput 3: ",
+        "task_name": "50"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "51"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "52"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: < < >\noutput 3: ",
+        "task_name": "53"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "54"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "55"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "56"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "57"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: [ < >\noutput 3: ",
+        "task_name": "58"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "59"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "60"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: ( [ { } ]\noutput 3: ",
+        "task_name": "61"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: [ { }\noutput 2: ]\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "62"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "63"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "64"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "65"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < < >\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "66"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "67"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "68"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( [ { } ]\noutput 3: ",
+        "task_name": "69"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < { }\noutput 2: >\n\ninput 3: < { } > [\noutput 3: ",
+        "task_name": "70"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < ( ( ) )\noutput 3: ",
+        "task_name": "71"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "72"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "73"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: { < >\noutput 2: }\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "74"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ < >\noutput 3: ",
+        "task_name": "75"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: { { }\noutput 3: ",
+        "task_name": "76"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "77"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "78"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "79"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "80"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: < [ < > ]\noutput 2: >\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "81"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "82"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "83"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "84"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < < >\noutput 2: >\n\ninput 3: < ( ( ) )\noutput 3: ",
+        "task_name": "85"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "86"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "87"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "88"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "89"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "90"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: < > {\noutput 3: ",
+        "task_name": "91"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: [ ( { } )\noutput 3: ",
+        "task_name": "92"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: [ [ ] < >\noutput 3: ",
+        "task_name": "93"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "94"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "95"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: [ < >\noutput 3: ",
+        "task_name": "96"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "97"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "98"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "99"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "100"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "101"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "102"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "103"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "104"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "105"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "106"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "107"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "108"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: ( ) (\noutput 3: ",
+        "task_name": "109"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "110"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "111"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "112"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "113"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "114"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "115"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "116"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( < [ ] >\noutput 3: ",
+        "task_name": "117"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "118"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "119"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "120"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "121"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "122"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < [ ] >\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "123"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "124"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( ( { } )\noutput 3: ",
+        "task_name": "125"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( < [ ] >\noutput 3: ",
+        "task_name": "126"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "127"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: < [ { } ]\noutput 3: ",
+        "task_name": "128"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "129"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: [ < >\noutput 3: ",
+        "task_name": "130"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "131"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "132"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: < > {\noutput 3: ",
+        "task_name": "133"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "134"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "135"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: < < < > >\noutput 3: ",
+        "task_name": "136"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "137"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "138"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: [ < >\noutput 3: ",
+        "task_name": "139"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "140"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "141"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "142"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "143"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: < [ { } ]\noutput 3: ",
+        "task_name": "144"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: ",
+        "task_name": "145"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "146"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "147"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: { [ ] [ ]\noutput 3: ",
+        "task_name": "148"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: ( < [ ] >\noutput 3: ",
+        "task_name": "149"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "150"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "151"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "152"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "153"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: ( { }\noutput 3: ",
+        "task_name": "154"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "155"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "156"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: ( ) (\noutput 3: ",
+        "task_name": "157"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "158"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "159"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "160"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "161"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: [ [ ] < >\noutput 3: ",
+        "task_name": "162"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "163"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "164"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "165"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "166"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "167"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "168"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "169"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "170"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "171"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "172"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "173"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "174"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "175"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "176"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "177"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "178"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "179"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "180"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "181"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "182"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "183"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "184"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: [ ( { } )\noutput 3: ",
+        "task_name": "185"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "186"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: < < < > >\noutput 3: ",
+        "task_name": "187"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "188"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "189"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "190"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: { { }\noutput 3: ",
+        "task_name": "191"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "192"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "193"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "194"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "195"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "196"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "197"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "198"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "199"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( ) (\noutput 3: ",
+        "task_name": "200"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "201"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "202"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: ",
+        "task_name": "203"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "204"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "205"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: ",
+        "task_name": "206"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "207"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "208"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "209"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "210"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "211"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "212"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( ) (\noutput 3: ",
+        "task_name": "213"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "214"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: < > {\noutput 3: ",
+        "task_name": "215"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "216"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "217"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "218"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "219"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "220"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "221"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "222"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "223"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "224"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "225"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "226"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: ( [ { } ]\noutput 3: ",
+        "task_name": "227"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "228"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "229"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "230"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "231"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "232"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "233"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: ( { }\noutput 3: ",
+        "task_name": "234"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "235"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: [ < >\noutput 3: ",
+        "task_name": "236"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "237"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "238"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "239"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "240"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: ( { }\noutput 3: ",
+        "task_name": "241"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: [ [ < > ]\noutput 3: ",
+        "task_name": "242"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ { }\noutput 2: ]\n\ninput 3: [ ( { } )\noutput 3: ",
+        "task_name": "243"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "244"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "245"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "246"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "247"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "248"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "249"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: { { }\noutput 3: ",
+        "task_name": "250"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "251"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < { } > [\noutput 3: ",
+        "task_name": "252"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "253"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "254"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: < > {\noutput 3: ",
+        "task_name": "255"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "256"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "257"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "258"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "259"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "260"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "261"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "262"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < [ { } ]\noutput 3: ",
+        "task_name": "263"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "264"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "265"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "266"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "267"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "268"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "269"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: < < < > >\noutput 3: ",
+        "task_name": "270"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "271"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "272"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "273"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "274"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "275"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "276"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "277"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "278"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "279"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "280"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "281"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "282"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: [ ( { } )\noutput 3: ",
+        "task_name": "283"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "284"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "285"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "286"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "287"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "288"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "289"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "290"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "291"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "292"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: ( ) (\noutput 3: ",
+        "task_name": "293"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "294"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "295"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "296"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "297"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "298"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "299"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "300"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "301"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "302"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "303"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "304"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "305"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: < < >\noutput 2: >\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "306"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "307"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "308"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "309"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "310"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "311"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "312"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "313"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "314"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "315"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: { [ { } ]\noutput 3: ",
+        "task_name": "316"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "317"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < [ ] >\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "318"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "319"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "320"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ",
+        "task_name": "321"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "322"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "323"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "324"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { < >\noutput 2: }\n\ninput 3: < < >\noutput 3: ",
+        "task_name": "325"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "326"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "327"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: ( ( { } )\noutput 3: ",
+        "task_name": "328"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "329"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "330"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "331"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "332"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "333"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "334"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "335"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "336"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "337"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "338"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "339"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "340"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "341"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: { { }\noutput 3: ",
+        "task_name": "342"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "343"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "344"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "345"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "346"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "347"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( < [ ] >\noutput 3: ",
+        "task_name": "348"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "349"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( < ( ) >\noutput 3: ",
+        "task_name": "350"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "351"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( < >\noutput 3: ",
+        "task_name": "352"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "353"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( [ { } ]\noutput 3: ",
+        "task_name": "354"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( [ ]\noutput 3: ",
+        "task_name": "355"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < { }\noutput 2: >\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "356"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: [ ] {\noutput 3: ",
+        "task_name": "357"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "358"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: ",
+        "task_name": "359"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "360"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "361"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "362"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( ( { } )\noutput 3: ",
+        "task_name": "363"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "364"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "365"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "366"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: { [ ] [ ]\noutput 3: ",
+        "task_name": "367"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "368"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "369"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: { [ ]\noutput 3: ",
+        "task_name": "370"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "371"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "372"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( < [ ] >\noutput 3: ",
+        "task_name": "373"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "374"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: ( < >\noutput 3: ",
+        "task_name": "375"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "376"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: [ [ ] < >\noutput 3: ",
+        "task_name": "377"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < [ < > ]\noutput 2: >\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "378"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "379"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "380"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "381"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "382"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( ( ( ) )\noutput 3: ",
+        "task_name": "383"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "384"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ",
+        "task_name": "385"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "386"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: ( { }\noutput 3: ",
+        "task_name": "387"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < { } > [\noutput 3: ",
+        "task_name": "388"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "389"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "390"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: { } [\noutput 3: ",
+        "task_name": "391"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "392"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "393"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "394"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "395"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ",
+        "task_name": "396"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: < < { } >\noutput 3: ",
+        "task_name": "397"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < [ ]\noutput 3: ",
+        "task_name": "398"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < ( ( ) )\noutput 3: ",
+        "task_name": "399"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "400"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: { { }\noutput 3: ",
+        "task_name": "401"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "402"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "403"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "404"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "405"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "406"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "407"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "408"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "409"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: [ [ < > ]\noutput 3: ",
+        "task_name": "410"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "411"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "412"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "413"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "414"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { < >\noutput 2: }\n\ninput 3: ( { [ ] }\noutput 3: ",
+        "task_name": "415"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "416"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "417"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "418"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "419"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: ( [ < > ]\noutput 3: ",
+        "task_name": "420"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "421"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "422"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "423"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: ( [ { } ]\noutput 3: ",
+        "task_name": "424"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "425"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "426"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: < < >\noutput 3: ",
+        "task_name": "427"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( < >\noutput 3: ",
+        "task_name": "428"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: < < >\noutput 2: >\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "429"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "430"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: ( ( { } )\noutput 3: ",
+        "task_name": "431"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "432"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: [ { }\noutput 2: ]\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "433"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: ",
+        "task_name": "434"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( { ( ) }\noutput 3: ",
+        "task_name": "435"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: [ ( )\noutput 3: ",
+        "task_name": "436"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: < { } > [\noutput 3: ",
+        "task_name": "437"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "438"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: ",
+        "task_name": "439"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "440"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "441"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "442"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: { { }\noutput 2: }\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "443"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "444"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "445"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: ",
+        "task_name": "446"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "447"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: ",
+        "task_name": "448"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { ( [ ] )\noutput 3: ",
+        "task_name": "449"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "450"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: { { ( ) }\noutput 3: ",
+        "task_name": "451"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "452"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "453"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( ) <\noutput 3: ",
+        "task_name": "454"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( < [ ] >\noutput 3: ",
+        "task_name": "455"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < < >\noutput 2: >\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "456"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "457"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { [ ] [ ]\noutput 3: ",
+        "task_name": "458"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "459"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "460"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "461"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: < < ( ) >\noutput 3: ",
+        "task_name": "462"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ",
+        "task_name": "463"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: [ [ ]\noutput 3: ",
+        "task_name": "464"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: { [ ] [ ]\noutput 3: ",
+        "task_name": "465"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "466"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "467"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "468"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: ( ( )\noutput 3: ",
+        "task_name": "469"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: [ [ ] < >\noutput 3: ",
+        "task_name": "470"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: { ( )\noutput 3: ",
+        "task_name": "471"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "472"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "473"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: ",
+        "task_name": "474"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "475"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: ",
+        "task_name": "476"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: [ < < > >\noutput 3: ",
+        "task_name": "477"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "478"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: { { { } }\noutput 3: ",
+        "task_name": "479"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( { < > }\noutput 3: ",
+        "task_name": "480"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ [ < > ]\noutput 3: ",
+        "task_name": "481"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: ",
+        "task_name": "482"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: ( < >\noutput 3: ",
+        "task_name": "483"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < ( )\noutput 3: ",
+        "task_name": "484"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "485"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: < { }\noutput 3: ",
+        "task_name": "486"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "487"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "488"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: [ { }\noutput 3: ",
+        "task_name": "489"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( ) {\noutput 3: ",
+        "task_name": "490"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: [ ] { < >\noutput 3: ",
+        "task_name": "491"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: { < >\noutput 3: ",
+        "task_name": "492"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: < < >\noutput 3: ",
+        "task_name": "493"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: [ ( { } )\noutput 3: ",
+        "task_name": "494"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: ( < >\noutput 3: ",
+        "task_name": "495"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: ",
+        "task_name": "496"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: ",
+        "task_name": "497"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( ( { } )\noutput 3: ",
+        "task_name": "498"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: < ( { } )\noutput 3: ",
+        "task_name": "499"
+    }
+]
