@@ -1,0 +1,1082 @@
+[
+    {
+        "label": "0,0,0,0,6,6,6,6,6,6,6,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "0",
+        "stl": [
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, then three zeros, and finally three zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,0,2,2,2,0",
+        "prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "1",
+        "stl": [
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,1,1,1,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: ",
+        "task_name": "2",
+        "stl": [
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,5,5,5,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "3",
+        "stl": [
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,5,5,5,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "4",
+        "stl": [
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with one zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,5,5,5,0",
+        "prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "5",
+        "stl": [
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with one zero.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, then three zeros, and finally three more zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,6,6,6,6,6,6,6,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "6",
+        "stl": [
+            "The sequence starts with three zeros, followed by three ones, then four zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros, followed by three twos, and ends with a zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,6,6,6,6,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: ",
+        "task_name": "7",
+        "stl": [
+            "The sequence starts with three zeros, followed by four fives, and then five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with four zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, then three zeros, and finally three more zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,5,5,5,5,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "8",
+        "stl": [
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with one zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,6,6,6,6,0,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: ",
+        "task_name": "9",
+        "stl": [
+            "The sequence starts with three zeros, followed by three ones, then four zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by four fives, and then five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with one zero.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,1,1,1,0,0,0",
+        "prompt": "input: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: ",
+        "task_name": "10",
+        "stl": [
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with one zero.",
+            "The sequence starts with three zeros, followed by four fives, and then five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,5,5,5,5,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "11",
+        "stl": [
+            "The sequence starts with three zeros, followed by three ones, then four zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,5,5,5,0",
+        "prompt": "input: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "12",
+        "stl": [
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with one zero.",
+            "The sequence starts with three zeros, followed by four fives, and then five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by three ones, then three zeros, and finally three zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,5,5,5,0",
+        "prompt": "input: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "13",
+        "stl": [
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by three ones, then three zeros, and finally three zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,1,1,1,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: ",
+        "task_name": "14",
+        "stl": [
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,1,1,1,0,0,0",
+        "prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: ",
+        "task_name": "15",
+        "stl": [
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a zero.",
+            "The sequence starts with three zeros, followed by four fives, and then five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,5,5,5,5,0,0",
+        "prompt": "input: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,0,0,6,6,6,6,6,6,6,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "16",
+        "stl": [
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros.",
+            "The sequence starts with four zeros, followed by six sixes, and ends with a single zero.",
+            "The sequence starts with three zeros, followed by three ones, then three zeros, and finally three more zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a zero.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,6,6,6,6,6,6,6,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "17",
+        "stl": [
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,6,6,6,6,6,6,6,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "18",
+        "stl": [
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, then four zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,6,6,6,6,6,6,6,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,0,0,1,1,1,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,0,0,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,0,0,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,2,2,2,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "19",
+        "stl": [
+            "The sequence starts with a zero, followed by seven fives, and then four zeros.",
+            "The sequence starts with four zeros, followed by seven fives, and ends with a zero.",
+            "The sequence starts with three zeros, followed by three ones, then four zeros.",
+            "The sequence starts with six zeros, followed by three ones, and then three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then six zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by four fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence starts with eight zeros followed by three twos and ends with a zero.",
+            "The sequence starts with a zero, followed by seven sixes, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,2,2,2,0,0,0,0,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "0",
+        "stl": [
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then three zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,2,2,2,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "1",
+        "stl": [
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight sevens, then four zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,2,2,2,2,2,2,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "2",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,1,1,1,1,1,1,1,1,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "3",
+        "stl": [
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,1,1,1,1,1,1,1,1,0,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "4",
+        "stl": [
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight sevens, then four zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,7,7,7,7,7,7,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: ",
+        "task_name": "5",
+        "stl": [
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four zeros, followed by eight sevens, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,3,3,3,3,3,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "6",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,1,1,1,1,1,1,1,1,0,0",
+        "prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "7",
+        "stl": [
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four zeros, followed by eight sevens, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,7,7,7,7,7,7,7,7,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: ",
+        "task_name": "8",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight sevens, then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,3,3,3,3,3,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "9",
+        "stl": [
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,1,1,1,1,1,1,1,1,0,0",
+        "prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "10",
+        "stl": [
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,7,7,7,7,7,7,0",
+        "prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: ",
+        "task_name": "11",
+        "stl": [
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,1,1,1,1,1,1,1,1,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "12",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,7,7,7,7,7,7,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: ",
+        "task_name": "13",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,2,2,2,0,0,0,0,0,0",
+        "prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "14",
+        "stl": [
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four zeros, followed by eight sevens, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,7,7,7,7,7,7,0",
+        "prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: ",
+        "task_name": "15",
+        "stl": [
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight sevens, then four zeros.",
+            "The sequence starts with four zeros, followed by eight sevens, and ends with two zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,7,7,7,7,7,7,7,7,0,0",
+        "prompt": "input: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: ",
+        "task_name": "16",
+        "stl": [
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then three zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight sevens, then five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,2,2,2,2,2,2,0",
+        "prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "17",
+        "stl": [
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,3,3,3,3,3,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "18",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros.",
+            "The sequence starts with four zeros, followed by nine twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with a zero, followed by seven consecutive sevens, then five consecutive zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,2,2,2,2,2,2,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,3,3,3,3,3,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,0,0,7,7,7,7,7,7,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,1,1,1,1,1,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,0,0,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,0,0,7,7,7,7,7,7,7,7,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "19",
+        "stl": [
+            "The sequence starts with four zeros, followed by five threes, and ends with five zeros.",
+            "The sequence starts with seven zeros, followed by five threes, and ends with two zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence starts with six zeros, followed by six sevens, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight ones, then a zero, and finally five zeros.",
+            "The sequence starts with four zeros, followed by eight ones, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by three twos, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight sevens, then five zeros.",
+            "The sequence starts with four consecutive zeros, followed by eight consecutive sevens, and ends with two consecutive zeros.",
+            "The sequence starts with a zero, followed by nine twos, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,8,8,8,8,8,0,0,0,0,0",
+        "prompt": "input: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "0",
+        "stl": [
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,4,4,4,4,4,4,4,4,4,4,0",
+        "prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: ",
+        "task_name": "1",
+        "stl": [
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros, followed by four sixes, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "2",
+        "stl": [
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine fives, and then five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,0,0,6,6,6,6,0,0",
+        "prompt": "input: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: ",
+        "task_name": "3",
+        "stl": [
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then two zeros, and finally four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,8,8,8,8,8,0,0,0,0,0,0",
+        "prompt": "input: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "4",
+        "stl": [
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "5",
+        "stl": [
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s."
+        ]
+    },
+    {
+        "label": "0,0,0,0,4,4,4,4,4,4,4,4,4,4,0",
+        "prompt": "input: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: ",
+        "task_name": "6",
+        "stl": [
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and then ends with three zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros, followed by four sixes, and ends with two zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero."
+        ]
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,5,5,5,5,5,0,0",
+        "prompt": "input: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "7",
+        "stl": [
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "8",
+        "stl": [
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,8,8,8,8,8,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "9",
+        "stl": [
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and then ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "10",
+        "stl": [
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then two zeros, and finally four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,8,8,8,8,8,0,0,0,0,0",
+        "prompt": "input: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "11",
+        "stl": [
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,0,0,1,1,1,1,1,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: ",
+        "task_name": "12",
+        "stl": [
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and then ends with three zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with six zeros, followed by five ones, and then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "13",
+        "stl": [
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, and ends with four zeros.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s."
+        ]
+    },
+    {
+        "label": "0,0,0,0,8,8,8,8,8,8,8,8,0,0,0",
+        "prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: ",
+        "task_name": "14",
+        "stl": [
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine fives, and then five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,2,2,2,2,2,2,2,2,2,0",
+        "prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "15",
+        "stl": [
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with a zero, followed by nine fives, and then five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and then ends with three zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,2,2,2,2,2,2,2,2,2,0",
+        "prompt": "input: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "16",
+        "stl": [
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with a zero, followed by nine fives, and then five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,0,0,0,0,0,6,6,6,6,0,0",
+        "prompt": "input: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: ",
+        "task_name": "17",
+        "stl": [
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by nine fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s.",
+            "The sequence starts with four zeros, followed by three twos, and then seven zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and ends with three zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros."
+        ]
+    },
+    {
+        "label": "0,0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,0,0,8,8,8,8,8,8,8,8,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,0,0,4,4,4,4,4,4,4,4,4,4,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "18",
+        "stl": [
+            "The sequence starts with six zeros, followed by five ones, then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros.",
+            "The sequence starts with four zeros, followed by five eights, and ends with six zeros.",
+            "The sequence starts with a zero, followed by eight consecutive eights, then five consecutive zeros.",
+            "The sequence starts with four zeros, followed by eight eights, and then ends with three zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with a zero, followed by eleven occurrences of the digit four, then four occurrences of zero.",
+            "The sequence starts with four consecutive zeros, followed by ten consecutive fours, and ends with a single zero.",
+            "The sequence starts with 0, followed by three 2s, and then seven 0s."
+        ]
+    },
+    {
+        "label": "0,0,0,0,8,8,8,8,8,0,0,0,0,0,0",
+        "prompt": "input: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,0,0,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,2,2,2,2,2,2,2,2,2,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,5,5,5,5,5,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,0,0,6,6,6,6,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "19",
+        "stl": [
+            "The sequence starts with two zeros, followed by five eights, then three zeros.",
+            "The sequence starts with five zeros, followed by five eights, and ends with five zeros.",
+            "The sequence starts with six zeros, followed by five ones, and then four zeros.",
+            "The sequence starts with nine consecutive zeros, followed by five consecutive ones, and ends with a single zero.",
+            "The sequence starts with two zeros, followed by eight twos, then four zeros.",
+            "The sequence starts with five zeros, followed by eight twos, and ends with a single zero.",
+            "The sequence starts with a zero, followed by ten fives, and ends with five zeros.",
+            "The sequence starts with four zeros, followed by nine fives, and ends with two zeros.",
+            "The sequence starts with five zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence starts with nine zeros followed by four sixes and ends with two zeros.",
+            "The sequence starts with a zero, followed by five eights, and then seven zeros."
+        ]
+    }
+]

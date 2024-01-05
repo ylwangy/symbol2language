@@ -1,0 +1,1142 @@
+[
+    {
+        "label": "0,0,0,0,0,0,2,2,2,0,0,0",
+        "prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "0",
+        "stl": [
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three 0s, followed by four 6s, and then five 0s.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence consists of five 0's, followed by three 2's, and then four 0's."
+        ],
+        "s2l_prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0 (The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput 4: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0's, followed by three 2's, and then four 0's.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,6,6,6,6,0,0,0,0,0",
+        "prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: ",
+        "task_name": "1",
+        "stl": [
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence consists of four 0s, followed by three 1s, and then five 0s.",
+            "This sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "This is a sequence of twelve digits that starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros."
+        ],
+        "s2l_prompt": "input: 0,6,6,6,6,6,6,6,0,0,0,0 (The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four repetitions of the digit zero.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence consists of four 0s, followed by three 1s, and then five 0s.)\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0 (This sequence starts with a single zero, followed by six fives, and then ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput 4: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,0,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "2",
+        "stl": [
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with four zeros, followed by three ones, and then ends with five zeros.",
+            "This sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three zeros, followed by three ones, and then six zeros.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then ends with five zeros.)\n\ninput 4: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three zeros, followed by four fives, and ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,5,5,5,5,5,5,5,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "3",
+        "stl": [
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0s, followed by three 2s, and then four 0s.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0s, followed by three 2s, and then three 0s.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput 4: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,5,5,5,5,5,5,5,0,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "4",
+        "stl": [
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "This is a sequence of twelve digits that starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by seven fives, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then ends with five zeros.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (This is a sequence of twelve digits that starts with five zeros, followed by three twos, and ends with four zeros.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0's, followed by three 2's, and then three 0's.)\n\ninput 4: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,5,5,5,5,5,5,5,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: ",
+        "task_name": "5",
+        "stl": [
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "This is a sequence of twelve digits that starts with five zeros, followed by three twos, and ends with four zeros.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (This is a sequence of twelve digits that starts with five zeros, followed by three twos, and ends with four zeros.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0's, followed by three 2's, and then three 0's.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput 4: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,6,6,6,6,6,6,6,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "6",
+        "stl": [
+            "This sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six zeros, followed by three twos, and then three zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0 (This sequence starts with a single zero, followed by seven fives, and ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0s, followed by three 2s, and then four 0s.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six zeros, followed by three twos, and then three zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput 4: 0,6,6,6,6,6,6,6,0,0,0,0 (The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,0,0,0,0",
+        "prompt": "input: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "7",
+        "stl": [
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s."
+        ],
+        "s2l_prompt": "input: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0s, followed by three 2s, and then four 0s.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0s, followed by three 2s, and then three 0s.)\n\ninput 4: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,6,6,6,6,0,0,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: ",
+        "task_name": "8",
+        "stl": [
+            "The sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by six fives, and then ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0 (This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput 4: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,0,2,2,2,0,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "9",
+        "stl": [
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence consists of five 0's, followed by three 2's, and then four 0's."
+        ],
+        "s2l_prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three zeros, followed by three ones, and then six zeros.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput 4: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0's, followed by three 2's, and then four 0's.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,0,2,2,2,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "10",
+        "stl": [
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence consists of five 0's, followed by three 2's, and then four 0's."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput 4: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0's, followed by three 2's, and then four 0's.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,1,1,1,0,0,0,0,0",
+        "prompt": "input: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: ",
+        "task_name": "11",
+        "stl": [
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three 0s, followed by four 6s, and then ends with five 0s.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "This sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s."
+        ],
+        "s2l_prompt": "input: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three 0s, followed by four 6s, and then ends with five 0s.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0s, followed by three 2s, and then four 0s.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0's, followed by three 2's, and then three 0's.)\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0 (This sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput 4: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,6,6,6,6,6,6,6,0,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "12",
+        "stl": [
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "This sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0s, followed by three 2s, and then four 0s.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0's, followed by three 2's, and then three 0's.)\n\ninput 4: 0,6,6,6,6,6,6,6,0,0,0,0 (The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,5,5,5,5,0,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "13",
+        "stl": [
+            "This sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "This sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "This sequence consists of five 0's, followed by three 2's, and then four 0's.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,0,0,0,0 (This sequence starts with a single zero, followed by six fives, and then ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0 (This sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput 4: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,0,2,2,2,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "14",
+        "stl": [
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s."
+        ],
+        "s2l_prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput 4: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0s, followed by three 2s, and then four 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,6,6,6,6,6,6,6,0,0,0",
+        "prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "15",
+        "stl": [
+            "The sequence starts with three zeros, followed by four fives, and ends with five zeros.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with a single zero, followed by seven fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three 0s, followed by four 6s, and then five 0s.",
+            "The sequence starts with three zeros, followed by three ones, and then six zeros.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three zeros, followed by four fives, and ends with five zeros.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with a single zero, followed by seven fives, and then ends with four zeros.)\noutput: 0,0,5,5,5,5,5,5,5,0,0,0 (The sequence starts with two zeros, followed by seven fives, and ends with three zeros.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three 0s, followed by four 6s, and then five 0s.)\n\ninput 4: 0,6,6,6,6,6,6,6,0,0,0,0 (This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,6,6,6,6,0,0,0,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: ",
+        "task_name": "16",
+        "stl": [
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "This sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0 (This sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput 4: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,6,6,6,6,0,0,0,0,0",
+        "prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: ",
+        "task_name": "17",
+        "stl": [
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence consists of five 0s, followed by three 2s, and then four 0s.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "The sequence starts with a single zero, followed by six fives, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0 (The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.)\noutput: 0,0,6,6,6,6,6,6,6,0,0,0 (The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.)\n\ninput 4: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,6,6,6,6,6,6,6,0,0,0",
+        "prompt": "input: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: 0,0,0,0,1,1,1,0,0,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: ",
+        "task_name": "18",
+        "stl": [
+            "The sequence consists of five 0's, followed by three 2's, and then four 0's.",
+            "The sequence consists of six 0s, followed by three 2s, and then three 0s.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s.",
+            "The sequence starts with four zeros, followed by three ones, and then five zeros.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three 0s, followed by four 6s, and then ends with five 0s.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,0,2,2,2,0,0,0,0 (The sequence consists of five 0's, followed by three 2's, and then four 0's.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0s, followed by three 2s, and then three 0s.)\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput: 0,0,0,0,1,1,1,0,0,0,0,0 (The sequence starts with four zeros, followed by three ones, and then five zeros.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput 4: 0,6,6,6,6,6,6,6,0,0,0,0 (The sequence starts with a single zero, followed by six repetitions of the digit six, and ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,1,1,1,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,2,2,2,0,0,0,0\noutput: 0,0,0,0,0,0,2,2,2,0,0,0\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0\noutput: 0,0,0,0,5,5,5,5,0,0,0,0\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0\noutput: 0,0,0,6,6,6,6,0,0,0,0,0\n\ninput: 0,6,6,6,6,6,6,6,0,0,0,0\noutput: 0,0,6,6,6,6,6,6,6,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,0,0,0\n\ninput: 0,0,0,1,1,1,0,0,0,0,0,0\noutput: ",
+        "task_name": "19",
+        "stl": [
+            "This sequence consists of five 0's, followed by three 2's, and then four 0's.",
+            "The sequence consists of six 0's, followed by three 2's, and then three 0's.",
+            "The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.",
+            "The sequence consists of four 0s, followed by four 5s, and then another four 0s.",
+            "The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.",
+            "The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.",
+            "The sequence starts with a single zero, followed by six repetitions of the digit six, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven sixes, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by seven fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by seven fives, and ends with three zeros.",
+            "The sequence starts with three 0s, followed by three 1s, and then six 0s."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,0,2,2,2,0,0,0,0 (This sequence consists of five 0's, followed by three 2's, and then four 0's.)\noutput: 0,0,0,0,0,0,2,2,2,0,0,0 (The sequence consists of six 0's, followed by three 2's, and then three 0's.)\n\ninput: 0,0,0,5,5,5,5,0,0,0,0,0 (The sequence starts with three 0s, followed by four 5s, and then ends with five 0s.)\noutput: 0,0,0,0,5,5,5,5,0,0,0,0 (The sequence consists of four 0s, followed by four 5s, and then another four 0s.)\n\ninput: 0,0,6,6,6,6,0,0,0,0,0,0 (The sequence starts with two zeros, followed by four sixes, and then ends with six zeros.)\noutput: 0,0,0,6,6,6,6,0,0,0,0,0 (The sequence starts with three zeros, followed by four sixes, and then ends with five zeros.)\n\ninput 4: 0,0,0,1,1,1,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 1s, and then six 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,2,2,2,2,2,2,0,0,0",
+        "prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "0",
+        "stl": [
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0's, followed by five 3's, and then followed by four 0's.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and ends with four zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then followed by four 0's.)\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (The sequence starts with two zeros, followed by eight ones, and ends with four zeros.)\n\ninput 4: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,3,3,3,3,3,0,0,0,0",
+        "prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "1",
+        "stl": [
+            "The sequence starts with a single 0, followed by eight 1s, and then ends with five 0s.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four more zeros.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's."
+        ],
+        "s2l_prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single 0, followed by eight 1s, and then ends with five 0s.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput 4: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "2",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "This sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four zeros again.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five zeros, followed by six sevens, and then three zeros.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,2,2,2,2,2,2,0,0,0",
+        "prompt": "input: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "3",
+        "stl": [
+            "The sequence consists of four zeros, followed by six sevens, and then four more zeros.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "This sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "This sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four more zeros.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five zeros, followed by six sevens, and then three zeros.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "4",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then four 0's.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,3,3,3,3,3,0,0,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "5",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence consists of four 0s, followed by five 3s, and then five 0s."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.)\n\ninput 4: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0s, followed by five 3s, and then five 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,7,7,7,7,7,7,0,0,0",
+        "prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: ",
+        "task_name": "6",
+        "stl": [
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "This sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "This sequence consists of five 0s, followed by five 3s, and then followed by four 0s.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four more zeros."
+        ],
+        "s2l_prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (This sequence starts with two zeros, followed by eight ones, and then ends with four zeros.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (This sequence consists of five 0s, followed by five 3s, and then followed by four 0s.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four more zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,3,3,3,3,3,0,0,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "7",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "This sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "This sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and ends with four zeros.",
+            "This sequence consists of four 0s, followed by five 3s, and then five 0s."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput 4: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (This sequence consists of four 0s, followed by five 3s, and then five 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,2,2,2,2,2,2,0,0,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "8",
+        "stl": [
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "This sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four zeros, followed by six sevens, and then four more zeros.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (This sequence consists of five 0's, followed by five 3's, and then four 0's.)\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,7,7,7,7,7,7,0,0,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: ",
+        "task_name": "9",
+        "stl": [
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "This sequence consists of five 0s, followed by five 3s, and then four 0s.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single 0, followed by eight 1s, and then ends with five 0s.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of four 0's, followed by six 7's, and then again four 0's."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (This sequence consists of five 0s, followed by five 3s, and then four 0s.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput 4: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four 0's, followed by six 7's, and then again four 0's.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "10",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence consists of three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence consists of four 0s, followed by five 3s, and then five 0s.",
+            "This sequence consists of five 0s, followed by five 3s, and then four 0s.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence consists of three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence starts with four zeros, followed by six sevens, and ends with four zeros.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five zeros, followed by six sevens, and then three zeros.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0s, followed by five 3s, and then five 0s.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (This sequence consists of five 0s, followed by five 3s, and then four 0s.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "11",
+        "stl": [
+            "This sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0's, followed by five 3's, and then followed by four 0's.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five 0's, followed by six 7's, and then three 0's.",
+            "This sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "This sequence of digits starts with two zeros, followed by eight ones, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (This sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then followed by four 0's.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four zeros again.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five 0's, followed by six 7's, and then three 0's.)\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (This sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput 4: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "12",
+        "stl": [
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five 0's, followed by six 7's, and then three 0's.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four zeros, followed by five threes, and then five zeros.",
+            "The sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four zeros again.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five 0's, followed by six 7's, and then three 0's.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four zeros, followed by five threes, and then five zeros.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then four 0's.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,2,2,2,2,2,2,0,0,0",
+        "prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "13",
+        "stl": [
+            "The sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0's, followed by five 3's, and then followed by four 0's.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "This sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "This sequence starts with a single zero, followed by nine twos, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then followed by four 0's.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (This sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,2,2,2,2,2,2,0,0,0",
+        "prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "14",
+        "stl": [
+            "The sequence starts with a single 0, followed by eight 1s, and then ends with five 0s.",
+            "The sequence starts with two zeros, followed by eight ones, and ends with four zeros.",
+            "This sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "This sequence consists of three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five 0s, followed by six 7s, and then three 0s.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single 0, followed by eight 1s, and then ends with five 0s.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (The sequence starts with two zeros, followed by eight ones, and ends with four zeros.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (This sequence consists of four 0's, followed by five 3's, and then five 0's.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then four 0's.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "15",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four zeros, followed by six sevens, and then four more zeros.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "This sequence consists of four 0s, followed by five 3s, and then five 0s.",
+            "This sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four more zeros.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five zeros, followed by six sevens, and then three zeros.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "16",
+        "stl": [
+            "This sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "This sequence consists of four 0's, followed by five 3's, and then five 0's.",
+            "The sequence consists of five 0s, followed by five 3s, and then four 0s.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (This sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence consists of four zeros, followed by six sevens, and then four zeros again.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five zeros, followed by six sevens, and then three zeros.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,1,1,1,1,1,1,1,1,0,0,0,0",
+        "prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: ",
+        "task_name": "17",
+        "stl": [
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence consists of four 0s, followed by five 3s, and then five 0s.",
+            "The sequence consists of five 0's, followed by five 3's, and then four 0's.",
+            "This sequence consists of four zeros, followed by six sevens, and then four more zeros.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by three 2s, and then eight 0s.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0s, followed by five 3s, and then five 0s.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0's, followed by five 3's, and then four 0's.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (This sequence consists of four zeros, followed by six sevens, and then four more zeros.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five zeros, followed by six sevens, and then three zeros.)\n\ninput 4: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,2,2,2,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0\n\ninput: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "18",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "This sequence consists of four 0s, followed by five 3s, and then five 0s.",
+            "The sequence consists of five 0s, followed by five 3s, and then four 0s.",
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence consists of four zeros, followed by six sevens, and then four zeros again.",
+            "The sequence consists of five zeros, followed by six sevens, and then three zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.)\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (This sequence consists of four 0s, followed by five 3s, and then five 0s.)\noutput: 0,0,0,0,0,3,3,3,3,3,0,0,0,0 (The sequence consists of five 0s, followed by five 3s, and then four 0s.)\n\ninput 4: 0,0,2,2,2,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then nine zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,3,3,3,3,3,0,0,0,0",
+        "prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0\n\ninput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0\noutput: 0,0,0,2,2,2,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,3,3,3,3,3,0,0,0,0,0\noutput: ",
+        "task_name": "19",
+        "stl": [
+            "The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.",
+            "This sequence starts with two zeros, followed by eight ones, and then ends with four zeros.",
+            "The sequence starts with four zeros, followed by six sevens, and ends with four zeros.",
+            "The sequence consists of five 0's, followed by six 7's, and then three 0's.",
+            "The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then nine zeros.",
+            "The sequence starts with three 0s, followed by three 2s, and then eight 0s.",
+            "The sequence starts with a single zero, followed by nine twos, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of four 0s, followed by five 3s, and then five 0s."
+        ],
+        "s2l_prompt": "input: 0,1,1,1,1,1,1,1,1,0,0,0,0,0 (The sequence starts with a single zero, followed by eight ones, and then ends with five zeros.)\noutput: 0,0,1,1,1,1,1,1,1,1,0,0,0,0 (This sequence starts with two zeros, followed by eight ones, and then ends with four zeros.)\n\ninput: 0,0,0,0,7,7,7,7,7,7,0,0,0,0 (The sequence starts with four zeros, followed by six sevens, and ends with four zeros.)\noutput: 0,0,0,0,0,7,7,7,7,7,7,0,0,0 (The sequence consists of five 0's, followed by six 7's, and then three 0's.)\n\ninput: 0,7,7,7,7,7,7,7,7,0,0,0,0,0 (The sequence starts with a single zero, followed by eight sevens, and then ends with five zeros.)\noutput: 0,0,7,7,7,7,7,7,7,7,0,0,0,0 (The sequence starts with two zeros, followed by eight sevens, and ends with four zeros.)\n\ninput 4: 0,0,0,0,3,3,3,3,3,0,0,0,0,0 (The sequence consists of four 0s, followed by five 3s, and then five 0s.)\noutput 4: "
+    },
+    {
+        "label": "0,0,8,8,8,8,8,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "0",
+        "stl": [
+            "This sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "This is a sequence of fifteen digits that starts with six zeros, followed by four sixes, and ends with five zeros.",
+            "The sequence consists of seven 0's, followed by four 6's, and then four 0's.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence starts with a single zero, followed by five eights, and then ends with nine zeros."
+        ],
+        "s2l_prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (This sequence starts with a single zero, followed by ten fours, and then ends with four zeros.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (The sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (This is a sequence of fifteen digits that starts with six zeros, followed by four sixes, and ends with five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (The sequence consists of seven 0's, followed by four 6's, and then four 0's.)\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput 4: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,0,0,1,1,1,1,1,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: ",
+        "task_name": "1",
+        "stl": [
+            "The sequence starts with a single 0, followed by nine 5s, and then ends with five 0s.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight eights, and ends with five zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by five repetitions of the digit eight, and then ends with nine repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven 0s, followed by four 6s, and then four 0s.",
+            "This sequence consists of six 0's, followed by five 1's, and then four 0's."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single 0, followed by nine 5s, and then ends with five 0s.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight eights, and ends with five zeros.)\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then ten zeros.)\n\ninput 4: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (This sequence consists of six 0's, followed by five 1's, and then four 0's.)\noutput 4: "
+    },
+    {
+        "label": "0,0,8,8,8,8,8,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "2",
+        "stl": [
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single digit 0, followed by five repetitions of the digit 8, and then ends with nine repetitions of the digit 0."
+        ],
+        "s2l_prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (The sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.)\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with four zeros.)\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with three zeros, followed by nine twos, and ends with three zeros.)\n\ninput 4: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single digit 0, followed by five repetitions of the digit 8, and then ends with nine repetitions of the digit 0.)\noutput 4: "
+    },
+    {
+        "label": "0,0,8,8,8,8,8,8,8,8,0,0,0,0,0",
+        "prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: ",
+        "task_name": "3",
+        "stl": [
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence consists of six 0's, followed by five 1's, and then four 0's.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "This sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero."
+        ],
+        "s2l_prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (The sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (The sequence consists of six 0's, followed by five 1's, and then four 0's.)\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0 (The sequence consists of seven zeros followed by five ones, and then ends with three zeros.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.)\n\ninput 4: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,0,0,1,1,1,1,1,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: ",
+        "task_name": "4",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three 0s, followed by five 8s, and then seven 0s.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence consists of six zeros followed by five ones, which is then followed by four zeros."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (The sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three 0s, followed by five 8s, and then seven 0s.)\n\ninput 4: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (The sequence consists of six zeros followed by five ones, which is then followed by four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,0,0,0,0,6,6,6,6,0,0,0,0",
+        "prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: ",
+        "task_name": "5",
+        "stl": [
+            "The sequence starts with a single zero, followed by five repetitions of the digit eight, and then ends with nine repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "This sequence consists of six zeros, followed by five ones, and then four zeros.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros."
+        ],
+        "s2l_prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by five repetitions of the digit eight, and then ends with nine repetitions of the digit zero.)\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with four zeros.)\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with three zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.)\n\ninput 4: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (The sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,0,0,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "6",
+        "stl": [
+            "This sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "This sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single 0, followed by nine 4s, and then ends with five 0s.",
+            "This sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "This sequence starts with a single zero, followed by three twos, and then eleven zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (This sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (This sequence consists of seven zeros, followed by four sixes, and then four zeros.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.)\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput 4: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (This sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,8,8,8,8,8,0,0,0,0,0,0,0",
+        "prompt": "input: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "7",
+        "stl": [
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then ten zeros.)\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.)\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput 4: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,8,8,8,8,8,0,0,0,0,0,0,0",
+        "prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "8",
+        "stl": [
+            "The sequence starts with a single digit 0, followed by five repetitions of the digit 8, and then ends with nine repetitions of the digit 0.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven zeros followed by four sixes, which is then followed by another four zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "This sequence starts with a single zero, followed by eight repetitions of the digit 8, and then ends with six repetitions of the digit 0.",
+            "The sequence starts with two zeros, followed by eight repetitions of the digit 8, and ends with five zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros."
+        ],
+        "s2l_prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single digit 0, followed by five repetitions of the digit 8, and then ends with nine repetitions of the digit 0.)\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (The sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (The sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (The sequence consists of seven zeros followed by four sixes, which is then followed by another four zeros.)\n\ninput 4: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,0,0,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "9",
+        "stl": [
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight eights, and ends with five zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "This sequence consists of six zeros followed by five ones, and then four zeros.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros."
+        ],
+        "s2l_prompt": "input: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight eights, and ends with five zeros.)\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (The sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (The sequence consists of seven zeros, followed by four sixes, and then four zeros.)\n\ninput 4: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,0,0,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "10",
+        "stl": [
+            "The sequence starts with a single 0, followed by ten 4s, and then ends with four 0s.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence consists of six 0's, followed by five 1's, and then four 0's.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "This sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight eights, and ends with five zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros."
+        ],
+        "s2l_prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (The sequence starts with a single 0, followed by ten 4s, and then ends with four 0s.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (The sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.)\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (The sequence consists of six 0's, followed by five 1's, and then four 0's.)\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0 (The sequence consists of seven zeros followed by five ones, and then ends with three zeros.)\n\ninput 4: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,8,8,8,8,8,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "11",
+        "stl": [
+            "This sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven 0's, followed by four 6's, and then four 0's.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight repetitions of the digit eight, and ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by nine twos, and ends with three zeros.",
+            "This sequence starts with a single zero, followed by five eights, and then ends with nine zeros."
+        ],
+        "s2l_prompt": "input: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (This sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then ten zeros.)\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (The sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (The sequence consists of seven 0's, followed by four 6's, and then four 0's.)\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput 4: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (This sequence starts with a single zero, followed by five eights, and then ends with nine zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,8,8,8,8,8,8,8,8,0,0,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: ",
+        "task_name": "12",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "This sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven 0's, followed by four 6's, and then followed by another four 0's.",
+            "This sequence consists of six zeros followed by five ones, and then four zeros.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (This sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (The sequence consists of seven 0's, followed by four 6's, and then followed by another four 0's.)\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (This sequence consists of six zeros followed by five ones, and then four zeros.)\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0 (The sequence consists of seven zeros followed by five ones, and then ends with three zeros.)\n\ninput 4: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput 4: "
+    },
+    {
+        "label": "0,0,8,8,8,8,8,8,8,8,0,0,0,0,0",
+        "prompt": "input: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: ",
+        "task_name": "13",
+        "stl": [
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven 0s, followed by four 6s, and then ends with four 0s.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single 0, followed by ten 4s, and then ends with four 0s.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero."
+        ],
+        "s2l_prompt": "input: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with four zeros.)\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with three zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0 (The sequence consists of six zeros, followed by four sixes, and then five zeros.)\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0 (The sequence consists of seven 0s, followed by four 6s, and then ends with four 0s.)\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.)\n\ninput 4: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,8,8,8,8,8,0,0,0,0,0,0,0",
+        "prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "14",
+        "stl": [
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence consists of six 0's, followed by five 1's, and then four 0's.",
+            "This sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros."
+        ],
+        "s2l_prompt": "input: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with four zeros.)\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with three zeros, followed by nine twos, and ends with three zeros.)\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then ten zeros.)\n\ninput 4: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,0,0,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "15",
+        "stl": [
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight eights, and ends with five zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence consists of six 0's, followed by five 1's, and then four 0's.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence consists of six 0's, followed by four 6's, and then five 0's.",
+            "This sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "This sequence starts with a single zero, followed by three twos, and then eleven zeros."
+        ],
+        "s2l_prompt": "input: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight eights, and ends with five zeros.)\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0 (The sequence starts with two zeros, followed by nine fives, and ends with four zeros.)\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (The sequence consists of six 0's, followed by five 1's, and then four 0's.)\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0 (The sequence consists of seven zeros followed by five ones, and then ends with three zeros.)\n\ninput 4: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (This sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,5,5,5,5,5,5,5,5,5,0,0,0,0",
+        "prompt": "input: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,0,0,0,0,0,6,6,6,6,0,0,0,0,0\noutput: 0,0,0,0,0,0,0,6,6,6,6,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "16",
+        "stl": [
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then seven zeros.",
+            "This sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight eights, and ends with five zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "This sequence consists of six zeros, followed by four sixes, and then five zeros.",
+            "The sequence consists of seven zeros, followed by four sixes, and then four zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0 (The sequence starts with three zeros, followed by five eights, and then seven zeros.)\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (This sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then ten zeros.)\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight eights, and ends with five zeros.)\n\ninput 4: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,2,2,2,0,0,0,0,0,0,0,0,0,0",
+        "prompt": "input: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0\n\ninput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\noutput: 0,0,0,8,8,8,8,8,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: ",
+        "task_name": "17",
+        "stl": [
+            "The sequence consists of six 0's, followed by five 1's, and then four 0's.",
+            "The sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence starts with a single digit 0, followed by eight repetitions of the digit 8, and then ends with six repetitions of the digit 0.",
+            "The sequence starts with two zeros, followed by eight repetitions of the digit eight, and ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros.",
+            "The sequence starts with three zeros, followed by nine twos, and ends with three zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with three zeros, followed by five eights, and then ends with seven zeros.",
+            "The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros."
+        ],
+        "s2l_prompt": "input: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0 (The sequence consists of six 0's, followed by five 1's, and then four 0's.)\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0 (The sequence consists of seven zeros followed by five ones, and then ends with three zeros.)\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single digit 0, followed by eight repetitions of the digit 8, and then ends with six repetitions of the digit 0.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight repetitions of the digit eight, and ends with five zeros.)\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with four zeros.)\noutput: 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0 (The sequence starts with three zeros, followed by nine twos, and ends with three zeros.)\n\ninput 4: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,0,2,2,2,2,2,2,2,2,2,0,0,0",
+        "prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: 0,0,5,5,5,5,5,5,5,5,5,0,0,0,0\n\ninput: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0\noutput: ",
+        "task_name": "18",
+        "stl": [
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "This sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.",
+            "The sequence starts with two zeros, followed by eight repetitions of the digit 8, and ends with five zeros.",
+            "The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "The sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.",
+            "The sequence starts with two zeros, followed by nine fives, and ends with four zeros.",
+            "The sequence starts with two zeros, followed by nine twos, and ends with four zeros."
+        ],
+        "s2l_prompt": "input: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0 (The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.)\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0 (This sequence starts with two zeros, followed by ten fours, and ends with three zeros.)\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit eight, and then ends with six repetitions of the digit zero.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight repetitions of the digit 8, and ends with five zeros.)\n\ninput: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.)\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\n\ninput 4: 0,0,2,2,2,2,2,2,2,2,2,0,0,0,0 (The sequence starts with two zeros, followed by nine twos, and ends with four zeros.)\noutput 4: "
+    },
+    {
+        "label": "0,0,5,5,5,5,5,5,5,5,5,0,0,0,0",
+        "prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0\n\ninput: 0,0,0,0,0,0,1,1,1,1,1,0,0,0,0\noutput: 0,0,0,0,0,0,0,1,1,1,1,1,0,0,0\n\ninput: 0,4,4,4,4,4,4,4,4,4,4,0,0,0,0\noutput: 0,0,4,4,4,4,4,4,4,4,4,4,0,0,0\n\ninput: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0\noutput: ",
+        "task_name": "19",
+        "stl": [
+            "The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.",
+            "The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.",
+            "This sequence starts with a single zero, followed by three twos, and then eleven zeros.",
+            "The sequence starts with two zeros, followed by three twos, and then ten zeros.",
+            "The sequence starts with a single zero, followed by eight repetitions of the digit 8, and then ends with six repetitions of the digit 0.",
+            "The sequence starts with two zeros, followed by eight eights, and ends with five zeros.",
+            "This sequence consists of six zeros followed by five ones, and then four zeros.",
+            "This sequence consists of seven zeros followed by five ones, and then ends with three zeros.",
+            "The sequence starts with a single zero, followed by ten fours, and then ends with four zeros.",
+            "The sequence starts with two zeros, followed by ten fours, and ends with three zeros.",
+            "The sequence starts with a single zero, followed by nine fives, and then ends with five zeros."
+        ],
+        "s2l_prompt": "input: 0,8,8,8,8,8,0,0,0,0,0,0,0,0,0 (The sequence starts with a single zero, followed by five eights, and then ends with nine zeros.)\noutput: 0,0,8,8,8,8,8,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by five eights, and then ends with eight zeros.)\n\ninput: 0,2,2,2,0,0,0,0,0,0,0,0,0,0,0 (This sequence starts with a single zero, followed by three twos, and then eleven zeros.)\noutput: 0,0,2,2,2,0,0,0,0,0,0,0,0,0,0 (The sequence starts with two zeros, followed by three twos, and then ten zeros.)\n\ninput: 0,8,8,8,8,8,8,8,8,0,0,0,0,0,0 (The sequence starts with a single zero, followed by eight repetitions of the digit 8, and then ends with six repetitions of the digit 0.)\noutput: 0,0,8,8,8,8,8,8,8,8,0,0,0,0,0 (The sequence starts with two zeros, followed by eight eights, and ends with five zeros.)\n\ninput 4: 0,5,5,5,5,5,5,5,5,5,0,0,0,0,0 (The sequence starts with a single zero, followed by nine fives, and then ends with five zeros.)\noutput 4: "
+    }
+]
