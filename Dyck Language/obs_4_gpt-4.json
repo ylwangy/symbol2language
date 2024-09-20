@@ -1,0 +1,3502 @@
+[
+    {
+        "label": ">",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "0",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: [ { }\noutput 3: ]\n\ninput 4: { < >\noutput 4: }\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "1",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: [ < < > >\noutput 3: ]\n\ninput 4: [ < >\noutput 4: ]\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "2",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: { [ ] [ ]\noutput 4: }\n\ninput 5: [ [ ] < >\noutput 5: ",
+        "task_name": "3",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "4",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "5",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "6",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: < { }\noutput 3: >\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "7",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { < >\noutput 1: }\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "8",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < > {\noutput 3: }\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "9",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "10",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: < > {\noutput 4: }\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "11",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( ) {\noutput 3: }\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "12",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "13",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ < < > >\noutput 3: ]\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "14",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: < < { } >\noutput 3: >\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: ( ( { } )\noutput 5: ",
+        "task_name": "15",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { < >\noutput 3: }\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "16",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "17",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "18",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: < < >\noutput 4: >\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "19",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "20",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: < > {\noutput 5: ",
+        "task_name": "21",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: < > {\noutput 3: }\n\ninput 4: < [ < > ]\noutput 4: >\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "22",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( < ( ) >\noutput 3: )\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "23",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: < < < > >\noutput 3: >\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "24",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "25",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: < < >\noutput 2: >\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: < { [ ] }\noutput 4: >\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "26",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: [ < >\noutput 4: ]\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "27",
+        "response": "<",
+        "response_extracted": "<"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "28",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "29",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( ) {\noutput 3: }\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: ( [ { } ]\noutput 5: ",
+        "task_name": "30",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "31",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: ( { ( ) }\noutput 4: )\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "32",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < >\noutput 2: >\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "33",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: ( { }\noutput 5: ",
+        "task_name": "34",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "35",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: [ { }\noutput 3: ]\n\ninput 4: { { }\noutput 4: }\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "36",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( < [ ] >\noutput 3: )\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "37",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "38",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: [ < >\noutput 4: ]\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "39",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "40",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { < >\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: < [ < > ]\noutput 4: >\n\ninput 5: < { } > [\noutput 5: ",
+        "task_name": "41",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "42",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: < > {\noutput 3: }\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: < ( ( ) )\noutput 5: ",
+        "task_name": "43",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: [ ] { < >\noutput 3: }\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "44",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "45",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: ( < [ ] >\noutput 3: )\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "46",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "47",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "48",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: < < >\noutput 2: >\n\ninput 3: < < { } >\noutput 3: >\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "49",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: ( { }\noutput 5: ",
+        "task_name": "50",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: < < < > >\noutput 3: >\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "51",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: { { }\noutput 3: }\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "52",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: [ ] {\noutput 3: }\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: < < >\noutput 5: ",
+        "task_name": "53",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: [ ] { < >\noutput 3: }\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "54",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: { ( [ ] )\noutput 3: }\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "55",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "56",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ ( )\noutput 3: ]\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "57",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( [ ]\noutput 3: )\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: [ < >\noutput 5: ",
+        "task_name": "58",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "59",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: [ < [ ] >\noutput 4: ]\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "60",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: [ { }\noutput 3: ]\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: ( [ { } ]\noutput 5: ",
+        "task_name": "61",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: [ { }\noutput 2: ]\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "62",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "63",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: < > {\noutput 3: }\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "64",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { ( [ ] )\noutput 3: }\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "65",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < < >\noutput 2: >\n\ninput 3: < { }\noutput 3: >\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "66",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "67",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ ]\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "68",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < > {\noutput 3: }\n\ninput 4: { { }\noutput 4: }\n\ninput 5: ( [ { } ]\noutput 5: ",
+        "task_name": "69",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: < { }\noutput 2: >\n\ninput 3: [ ] {\noutput 3: }\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: < { } > [\noutput 5: ",
+        "task_name": "70",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: { { }\noutput 4: }\n\ninput 5: < ( ( ) )\noutput 5: ",
+        "task_name": "71",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: ( [ < > ]\noutput 4: )\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "72",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "73",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: { < >\noutput 2: }\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "74",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: [ < >\noutput 5: ",
+        "task_name": "75",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: { { }\noutput 5: ",
+        "task_name": "76",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "77",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "78",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { < >\noutput 3: }\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "79",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: < > {\noutput 4: }\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "80",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: < [ < > ]\noutput 2: >\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: [ [ ]\noutput 4: ]\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "81",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: ( [ ]\noutput 3: )\n\ninput 4: [ < < > >\noutput 4: ]\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "82",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "83",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) {\noutput 1: }\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "84",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: < < >\noutput 2: >\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: < ( ( ) )\noutput 5: ",
+        "task_name": "85",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: { < >\noutput 3: }\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "86",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "87",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: ( < ( ) >\noutput 3: )\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "88",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: ( ) [\noutput 4: ]\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "89",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "90",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: [ { }\noutput 3: ]\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: < > {\noutput 5: ",
+        "task_name": "91",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: [ ( { } )\noutput 5: ",
+        "task_name": "92",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: [ [ ] < >\noutput 5: ",
+        "task_name": "93",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: [ < < > >\noutput 4: ]\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "94",
+        "response": "{",
+        "response_extracted": "{"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: < { [ ] }\noutput 4: >\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "95",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < { } > [\noutput 3: ]\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: [ < >\noutput 5: ",
+        "task_name": "96",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: >\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "97",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "98",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: < < ( ) >\noutput 3: >\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "99",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: < < { } >\noutput 3: >\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "100",
+        "response": "<",
+        "response_extracted": "<"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "101",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: < < < > >\noutput 3: >\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "102",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: ( { ( ) }\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "103",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: [ ] {\noutput 3: }\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "104",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "105",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "106",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: < > {\noutput 4: }\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "107",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "108",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: { [ ( ) ]\noutput 4: }\n\ninput 5: ( ) (\noutput 5: ",
+        "task_name": "109",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "110",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "111",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "112",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: [ < < > >\noutput 3: ]\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "113",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( [ ]\noutput 3: )\n\ninput 4: { { }\noutput 4: }\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "114",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { < >\noutput 3: }\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "115",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "116",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: { ( [ ] )\noutput 3: }\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( < [ ] >\noutput 5: ",
+        "task_name": "117",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "118",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "119",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "120",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: [ < < > >\noutput 3: ]\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "121",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "122",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < [ ] >\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "123",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "124",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: < < >\noutput 3: >\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: ( ( { } )\noutput 5: ",
+        "task_name": "125",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: ( < [ ] >\noutput 5: ",
+        "task_name": "126",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: [ ( )\noutput 3: ]\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "127",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: < [ { } ]\noutput 5: ",
+        "task_name": "128",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "129",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < { } >\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( ( )\noutput 3: )\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: [ < >\noutput 5: ",
+        "task_name": "130",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "131",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "132",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: < { } > [\noutput 3: ]\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: < > {\noutput 5: ",
+        "task_name": "133",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "134",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: [ < < > >\noutput 3: ]\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "135",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: < < < > >\noutput 5: ",
+        "task_name": "136",
+        "response": "> > >",
+        "response_extracted": "> > >"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "137",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "138",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: [ < >\noutput 5: ",
+        "task_name": "139",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: [ < [ ] >\noutput 4: ]\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "140",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( < [ ] >\noutput 3: )\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "141",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: < > {\noutput 4: }\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "142",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "143",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: < [ { } ]\noutput 5: ",
+        "task_name": "144",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: < ( ( ) )\noutput 5: ",
+        "task_name": "145",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: [ [ ]\noutput 4: ]\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "146",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: ( { { } }\noutput 4: )\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "147",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: { [ ] [ ]\noutput 5: ",
+        "task_name": "148",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: [ { }\noutput 3: ]\n\ninput 4: { [ ( ) ]\noutput 4: }\n\ninput 5: ( < [ ] >\noutput 5: ",
+        "task_name": "149",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: < { }\noutput 3: >\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "150",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: < < { } >\noutput 3: >\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "151",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "152",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "153",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: ( [ < > ]\noutput 4: )\n\ninput 5: ( { }\noutput 5: ",
+        "task_name": "154",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "155",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "156",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: [ ] { < >\noutput 3: }\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: ( ) (\noutput 5: ",
+        "task_name": "157",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: < { }\noutput 3: >\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "158",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: { } [\noutput 3: ]\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "159",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "160",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "161",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: { } [\noutput 3: ]\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: [ [ ] < >\noutput 5: ",
+        "task_name": "162",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: { < >\noutput 3: }\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "163",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "164",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: < > {\noutput 4: }\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "165",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "166",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "167",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "168",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "169",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "170",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "171",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "172",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: < { } > [\noutput 3: ]\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "173",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < { } >\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "174",
+        "response": "[",
+        "response_extracted": "["
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: { } ( ) (\noutput 4: )\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "175",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "176",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: < [ < > ]\noutput 3: >\n\ninput 4: < < >\noutput 4: >\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "177",
+        "response": ">}",
+        "response_extracted": ">}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "178",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "179",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: ( { { } }\noutput 4: )\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "180",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "181",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "182",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: { { }\noutput 4: }\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "183",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "184",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( { ( ) }\noutput 4: )\n\ninput 5: [ ( { } )\noutput 5: ",
+        "task_name": "185",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ ]\noutput 1: >\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "186",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: < { [ ] }\noutput 4: >\n\ninput 5: < < < > >\noutput 5: ",
+        "task_name": "187",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "188",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: ( ) {\noutput 3: }\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "189",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: < < >\noutput 4: >\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "190",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: { { }\noutput 5: ",
+        "task_name": "191",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "192",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: { < >\noutput 4: }\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "193",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "194",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "195",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "196",
+        "response": ">}",
+        "response_extracted": ">}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "197",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ) {\noutput 1: }\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "198",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: < [ < > ]\noutput 4: >\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "199",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: { < >\noutput 3: }\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: ( ) (\noutput 5: ",
+        "task_name": "200",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: ( ) {\noutput 3: }\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "201",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "202",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: < ( ( ) )\noutput 5: ",
+        "task_name": "203",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "204",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: >\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "205",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: < [ { } ]\noutput 5: ",
+        "task_name": "206",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < { } >\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "207",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "208",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: [ ( )\noutput 3: ]\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "209",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: < < ( ) >\noutput 3: >\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "210",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "211",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ ] { < >\noutput 2: }\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "212",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( ) (\noutput 5: ",
+        "task_name": "213",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "214",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: [ ( )\noutput 3: ]\n\ninput 4: < { [ ] }\noutput 4: >\n\ninput 5: < > {\noutput 5: ",
+        "task_name": "215",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "216",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "217",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: < > {\noutput 3: }\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "218",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "219",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "220",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < < > >\noutput 1: >\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: [ ] { < >\noutput 3: }\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "221",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: ( ) {\noutput 3: }\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "222",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { }\noutput 2: }\n\ninput 3: < > {\noutput 3: }\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "223",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "224",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "225",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: { [ ] [ ]\noutput 4: }\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "226",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: ( [ { } ]\noutput 5: ",
+        "task_name": "227",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "228",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "229",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "230",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "231",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "232",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "233",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: < < >\noutput 4: >\n\ninput 5: ( { }\noutput 5: ",
+        "task_name": "234",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "235",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: < { }\noutput 4: >\n\ninput 5: [ < >\noutput 5: ",
+        "task_name": "236",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < < { } >\noutput 1: >\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < < ( ) >\noutput 3: >\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "237",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { < >\noutput 3: }\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "238",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "239",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "240",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: < < >\noutput 3: >\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: ( { }\noutput 5: ",
+        "task_name": "241",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: [ [ < > ]\noutput 5: ",
+        "task_name": "242",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: [ { }\noutput 2: ]\n\ninput 3: ( < ( ) >\noutput 3: )\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: [ ( { } )\noutput 5: ",
+        "task_name": "243",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: [ [ ]\noutput 4: ]\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "244",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "245",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: { } [\noutput 3: ]\n\ninput 4: ( [ { } ]\noutput 4: )\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "246",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "247",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: ( { { } }\noutput 4: )\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "248",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: [ ( )\noutput 3: ]\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "249",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: [ < >\noutput 4: ]\n\ninput 5: { { }\noutput 5: ",
+        "task_name": "250",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "251",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: < { } > [\noutput 5: ",
+        "task_name": "252",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "253",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "254",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: < > {\noutput 5: ",
+        "task_name": "255",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: [ < < > >\noutput 4: ]\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "256",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "257",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( [ ]\noutput 3: )\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "258",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: < < >\noutput 4: >\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "259",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "260",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "261",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "262",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < { } > [\noutput 3: ]\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: < [ { } ]\noutput 5: ",
+        "task_name": "263",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "264",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "265",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: < < >\noutput 3: >\n\ninput 4: ( [ { } ]\noutput 4: )\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "266",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: ( [ { } ]\noutput 4: )\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "267",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: ( < ( ) >\noutput 3: )\n\ninput 4: { } ( ) (\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "268",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "269",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: < < < > >\noutput 5: ",
+        "task_name": "270",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: ( < < > >\noutput 4: )\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "271",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "272",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: { { }\noutput 3: }\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "273",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "274",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "275",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < > {\noutput 3: }\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "276",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( { ( ) }\noutput 4: )\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "277",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "278",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "279",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: < [ < > ]\noutput 4: >\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "280",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "281",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "282",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: [ ( { } )\noutput 5: ",
+        "task_name": "283",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "284",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "285",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "286",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: < { }\noutput 3: >\n\ninput 4: < > {\noutput 4: }\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "287",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { < >\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: }\n\ninput 3: < { }\noutput 3: >\n\ninput 4: ( < < > >\noutput 4: )\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "288",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( < [ ] >\noutput 3: )\n\ninput 4: [ < [ ] >\noutput 4: ]\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "289",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: < > {\noutput 3: }\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "290",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "291",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "292",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: [ < [ ] >\noutput 4: ]\n\ninput 5: ( ) (\noutput 5: ",
+        "task_name": "293",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "294",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: { < >\noutput 3: }\n\ninput 4: < > {\noutput 4: }\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "295",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: ( < < > >\noutput 4: )\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "296",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: [ < [ ] >\noutput 4: ]\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "297",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: < > {\noutput 4: }\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "298",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "299",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: < { }\noutput 4: >\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "300",
+        "response": "[ ]",
+        "response_extracted": "[ ]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( )\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: ( ) [\noutput 4: ]\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "301",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < { } > [\noutput 3: ]\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "302",
+        "response": "[ ] }",
+        "response_extracted": "[ ] }"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( < ( ) >\noutput 3: )\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "303",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: { { }\noutput 4: }\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "304",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "305",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: < < >\noutput 2: >\n\ninput 3: < { }\noutput 3: >\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "306",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "307",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( ( )\noutput 3: )\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "308",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "309",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: < > {\noutput 3: }\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "310",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "311",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "312",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: { ( [ ] )\noutput 3: }\n\ninput 4: < < >\noutput 4: >\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "313",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: < < >\noutput 3: >\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "314",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "315",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: { [ { } ]\noutput 5: ",
+        "task_name": "316",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "317",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ < [ ] >\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "318",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: < < ( ) >\noutput 3: >\n\ninput 4: ( [ < > ]\noutput 4: )\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "319",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: [ < < > >\noutput 2: ]\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "320",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: [ ] {\noutput 3: }\n\ninput 4: ( ) (\noutput 4: )\n\ninput 5: [ < [ ] >\noutput 5: ",
+        "task_name": "321",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) (\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: { } [\noutput 3: ]\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "322",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: ( < > ) [\noutput 4: ]\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "323",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "324",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { < >\noutput 2: }\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: < < >\noutput 5: ",
+        "task_name": "325",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "326",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < { } >\noutput 1: >\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: ( [ < > ]\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "327",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: ( ( { } )\noutput 5: ",
+        "task_name": "328",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: < < < > >\noutput 2: >\n\ninput 3: { < >\noutput 3: }\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "329",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( [ ]\noutput 3: )\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "330",
+        "response": "<",
+        "response_extracted": "<"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: { < >\noutput 3: }\n\ninput 4: { { }\noutput 4: }\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "331",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: ( ) [\noutput 4: ]\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "332",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < < { } >\noutput 3: >\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "333",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: < [ < > ]\noutput 3: >\n\ninput 4: < > {\noutput 4: }\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "334",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "335",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: ( < [ ] >\noutput 3: )\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "336",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "337",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "338",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "339",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "340",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "341",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: { { }\noutput 5: ",
+        "task_name": "342",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "343",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "344",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: ( { ( ) }\noutput 3: )\n\ninput 4: ( < < > >\noutput 4: )\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "345",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "346",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: < < >\noutput 4: >\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "347",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: { < >\noutput 3: }\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: ( < [ ] >\noutput 5: ",
+        "task_name": "348",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ ] { < >\noutput 3: }\n\ninput 4: ( { ( ) }\noutput 4: )\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "349",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: ( < ( ) >\noutput 5: ",
+        "task_name": "350",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "351",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: < { }\noutput 4: >\n\ninput 5: ( < >\noutput 5: ",
+        "task_name": "352",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "353",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: ( { { } }\noutput 4: )\n\ninput 5: ( [ { } ]\noutput 5: ",
+        "task_name": "354",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: ( [ ]\noutput 5: ",
+        "task_name": "355",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < { }\noutput 2: >\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: ( ) [\noutput 4: ]\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "356",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: ( [ < > ]\noutput 4: )\n\ninput 5: [ ] {\noutput 5: ",
+        "task_name": "357",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "358",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: < [ { } ]\noutput 5: ",
+        "task_name": "359",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < < > >\noutput 1: >\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "360",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "361",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) {\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ]\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "362",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: ( ( { } )\noutput 5: ",
+        "task_name": "363",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "364",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "365",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: ( { { } }\noutput 3: )\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "366",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: { [ ] [ ]\noutput 5: ",
+        "task_name": "367",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "368",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "369",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: >\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: { [ ]\noutput 5: ",
+        "task_name": "370",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: >\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "371",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ( ( ) )\noutput 3: )\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "372",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: < < >\noutput 3: >\n\ninput 4: [ [ < > ]\noutput 4: ]\n\ninput 5: ( < [ ] >\noutput 5: ",
+        "task_name": "373",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: < < >\noutput 4: >\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "374",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { < >\noutput 1: }\n\ninput 2: ( < [ ] >\noutput 2: )\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: ( < >\noutput 5: ",
+        "task_name": "375",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < >\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: ( { { } }\noutput 4: )\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "376",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: [ [ ] < >\noutput 5: ",
+        "task_name": "377",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < [ < > ]\noutput 2: >\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "378",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ( )\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < > {\noutput 3: }\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "379",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "380",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: [ [ ]\noutput 4: ]\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "381",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "382",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { < >\noutput 1: }\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: ( ( ( ) )\noutput 5: ",
+        "task_name": "383",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( ( )\noutput 3: )\n\ninput 4: ( { ( ) }\noutput 4: )\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "384",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: [ ] {\noutput 4: }\n\ninput 5: ( ) [\noutput 5: ",
+        "task_name": "385",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "386",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: ( { }\noutput 5: ",
+        "task_name": "387",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: ( { }\noutput 3: )\n\ninput 4: < < >\noutput 4: >\n\ninput 5: < { } > [\noutput 5: ",
+        "task_name": "388",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "389",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: [ < >\noutput 2: ]\n\ninput 3: ( ( { } )\noutput 3: )\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "390",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: < < < > >\noutput 3: >\n\ninput 4: ( [ { } ]\noutput 4: )\n\ninput 5: { } [\noutput 5: ",
+        "task_name": "391",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: < { }\noutput 3: >\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "392",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: { [ ( ) ]\noutput 3: }\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "393",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "394",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: < < { } >\noutput 4: >\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "395",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: )\n\ninput 3: < < >\noutput 3: >\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: [ ( ( ) )\noutput 5: ",
+        "task_name": "396",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( { ( ) }\noutput 3: )\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: < < { } >\noutput 5: ",
+        "task_name": "397",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( { { } }\noutput 2: )\n\ninput 3: ( [ ]\noutput 3: )\n\ninput 4: { { }\noutput 4: }\n\ninput 5: < [ ]\noutput 5: ",
+        "task_name": "398",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: < ( ( ) )\noutput 5: ",
+        "task_name": "399",
+        "response": "<",
+        "response_extracted": "<"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: < { }\noutput 4: >\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "400",
+        "response": ">}",
+        "response_extracted": ">}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ]\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: { { }\noutput 5: ",
+        "task_name": "401",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "402",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: ( ( [ ] )\noutput 3: )\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "403",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: )\n\ninput 3: < < >\noutput 3: >\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "404",
+        "response": "{",
+        "response_extracted": "{"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: ( < [ ] >\noutput 3: )\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "405",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ ]\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "406",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "407",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < { }\noutput 2: >\n\ninput 3: [ ] { < >\noutput 3: }\n\ninput 4: [ ( ( ) )\noutput 4: ]\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "408",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( { [ ] }\noutput 2: )\n\ninput 3: { < >\noutput 3: }\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "409",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) (\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: [ [ < > ]\noutput 5: ",
+        "task_name": "410",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "411",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: [ ( )\noutput 2: ]\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "412",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < { }\noutput 3: >\n\ninput 4: < [ < > ]\noutput 4: >\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "413",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( { }\noutput 1: )\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "414",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { < >\noutput 2: }\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: ( { [ ] }\noutput 5: ",
+        "task_name": "415",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "416",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ ( { } )\noutput 3: ]\n\ninput 4: < < ( ) >\noutput 4: >\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "417",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: { { ( ) }\noutput 3: }\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "418",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "419",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: < < >\noutput 3: >\n\ninput 4: ( < ( ) >\noutput 4: )\n\ninput 5: ( [ < > ]\noutput 5: ",
+        "task_name": "420",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) (\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: )\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "421",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: >\n\ninput 3: < > {\noutput 3: }\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "422",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "423",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: ( ( [ ] )\noutput 4: )\n\ninput 5: ( [ { } ]\noutput 5: ",
+        "task_name": "424",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: >\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "425",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "426",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: { { { } }\noutput 4: }\n\ninput 5: < < >\noutput 5: ",
+        "task_name": "427",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < < > >\noutput 1: >\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: < ( ) > (\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: ( < >\noutput 5: ",
+        "task_name": "428",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: < < >\noutput 2: >\n\ninput 3: ( ( )\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "429",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "430",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < < > >\noutput 1: >\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: ( ( { } )\noutput 5: ",
+        "task_name": "431",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < { }\noutput 1: >\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ ] {\noutput 3: }\n\ninput 4: ( ) <\noutput 4: >\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "432",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: [ { }\noutput 2: ]\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "433",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: < { } > [\noutput 3: ]\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: ( < < > >\noutput 5: ",
+        "task_name": "434",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: ( { ( ) }\noutput 5: ",
+        "task_name": "435",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: < > {\noutput 4: }\n\ninput 5: [ ( )\noutput 5: ",
+        "task_name": "436",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( ) (\noutput 2: )\n\ninput 3: [ ( ( ) )\noutput 3: ]\n\ninput 4: [ < >\noutput 4: ]\n\ninput 5: < { } > [\noutput 5: ",
+        "task_name": "437",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: [ { }\noutput 4: ]\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "438",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: ( { }\noutput 2: )\n\ninput 3: { ( [ ] )\noutput 3: }\n\ninput 4: ( < [ ] >\noutput 4: )\n\ninput 5: < [ < > ]\noutput 5: ",
+        "task_name": "439",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < { [ ] }\noutput 2: >\n\ninput 3: [ < < > >\noutput 3: ]\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "440",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: [ < >\noutput 3: ]\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "441",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: < < > > (\noutput 3: )\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "442",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: { { }\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "443",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: { [ ( ) ]\noutput 4: }\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "444",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < ( )\noutput 3: >\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "445",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: [ [ < > ]\noutput 3: ]\n\ninput 4: ( ) {\noutput 4: }\n\ninput 5: ( ( [ ] )\noutput 5: ",
+        "task_name": "446",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < < { } >\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: )\n\ninput 3: ( ) (\noutput 3: )\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "447",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ) {\noutput 1: }\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: < ( ( ) )\noutput 4: >\n\ninput 5: ( { { } }\noutput 5: ",
+        "task_name": "448",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: { < >\noutput 3: }\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: { ( [ ] )\noutput 5: ",
+        "task_name": "449",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: >\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: ( [ ]\noutput 4: )\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "450",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: ( < > ) [\noutput 2: ]\n\ninput 3: ( < ( ) >\noutput 3: )\n\ninput 4: < < >\noutput 4: >\n\ninput 5: { { ( ) }\noutput 5: ",
+        "task_name": "451",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: ( < > ) [\noutput 3: ]\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "452",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] {\noutput 1: }\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: ( { < > }\noutput 3: )\n\ninput 4: { ( [ ] )\noutput 4: }\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "453",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: )\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: { ( )\noutput 4: }\n\ninput 5: ( ) <\noutput 5: ",
+        "task_name": "454",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < ( )\noutput 2: >\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: ( < [ ] >\noutput 5: ",
+        "task_name": "455",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < < >\noutput 2: >\n\ninput 3: { { }\noutput 3: }\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "456",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "457",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { { { } }\noutput 1: }\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { [ ]\noutput 3: }\n\ninput 4: < ( { } )\noutput 4: >\n\ninput 5: { [ ] [ ]\noutput 5: ",
+        "task_name": "458",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: ( ) {\noutput 2: }\n\ninput 3: < < { } >\noutput 3: >\n\ninput 4: ( [ { } ]\noutput 4: )\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "459",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( < < > >\noutput 2: )\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: [ ] { < >\noutput 4: }\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "460",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "461",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < ( { } )\noutput 2: >\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: ( { < > }\noutput 4: )\n\ninput 5: < < ( ) >\noutput 5: ",
+        "task_name": "462",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: )\n\ninput 3: { [ { } ]\noutput 3: }\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: ( < > ) [\noutput 5: ",
+        "task_name": "463",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: < { }\noutput 4: >\n\ninput 5: [ [ ]\noutput 5: ",
+        "task_name": "464",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: { [ ] [ ]\noutput 5: ",
+        "task_name": "465",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: }\n\ninput 3: [ [ ]\noutput 3: ]\n\ninput 4: < { } > [\noutput 4: ]\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "466",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: )\n\ninput 3: < [ < > ]\noutput 3: >\n\ninput 4: ( ( )\noutput 4: )\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "467",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: < ( { } )\noutput 3: >\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "468",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: ( ) <\noutput 3: >\n\ninput 4: < < < > >\noutput 4: >\n\ninput 5: ( ( )\noutput 5: ",
+        "task_name": "469",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ ] {\noutput 2: }\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: { } ( ) (\noutput 4: )\n\ninput 5: [ [ ] < >\noutput 5: ",
+        "task_name": "470",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < { }\noutput 3: >\n\ninput 4: ( [ { } ]\noutput 4: )\n\ninput 5: { ( )\noutput 5: ",
+        "task_name": "471",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < > {\noutput 2: }\n\ninput 3: { } ( ) (\noutput 3: )\n\ninput 4: { { ( ) }\noutput 4: }\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "472",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { < >\noutput 2: }\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: < { [ ] }\noutput 4: >\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "473",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: [ ( { } )\noutput 4: ]\n\ninput 5: { } ( ) (\noutput 5: ",
+        "task_name": "474",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: < ( ( ) )\noutput 3: >\n\ninput 4: { [ ( ) ]\noutput 4: }\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "475",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: [ < < > >\noutput 4: ]\n\ninput 5: < ( ) > (\noutput 5: ",
+        "task_name": "476",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: { < >\noutput 1: }\n\ninput 2: ( < >\noutput 2: )\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: [ < < > >\noutput 5: ",
+        "task_name": "477",
+        "response": "[",
+        "response_extracted": "["
+    },
+    {
+        "label": ">",
+        "question": "input 1: ( ) (\noutput 1: )\n\ninput 2: { } [\noutput 2: ]\n\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: < [ { } ]\noutput 4: >\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "478",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: [ [ ] < >\noutput 4: ]\n\ninput 5: { { { } }\noutput 5: ",
+        "task_name": "479",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: < > {\noutput 2: }\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: ( < >\noutput 4: )\n\ninput 5: ( { < > }\noutput 5: ",
+        "task_name": "480",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: }\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: { } [\noutput 4: ]\n\ninput 5: [ [ < > ]\noutput 5: ",
+        "task_name": "481",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ]\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: < < > > (\noutput 5: ",
+        "task_name": "482",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ")",
+        "question": "input 1: [ < >\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ]\n\ninput 3: ( ) {\noutput 3: }\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: ( < >\noutput 5: ",
+        "task_name": "483",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < > {\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: )\n\ninput 3: < { [ ] }\noutput 3: >\n\ninput 4: ( { [ ] }\noutput 4: )\n\ninput 5: < ( )\noutput 5: ",
+        "task_name": "484",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: { ( )\noutput 1: }\n\ninput 2: ( ( { } )\noutput 2: )\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: { < >\noutput 4: }\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "485",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < < >\noutput 1: >\n\ninput 2: { { { } }\noutput 2: }\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: < [ ]\noutput 4: >\n\ninput 5: < { }\noutput 5: ",
+        "task_name": "486",
+        "response": ">}",
+        "response_extracted": ">}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( < >\noutput 1: )\n\ninput 2: < { } > [\noutput 2: ]\n\ninput 3: < [ { } ]\noutput 3: >\n\ninput 4: ( ( { } )\noutput 4: )\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "487",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ [ < > ]\noutput 2: ]\n\ninput 3: { ( )\noutput 3: }\n\ninput 4: [ [ ]\noutput 4: ]\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "488",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "]",
+        "question": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ]\n\ninput 3: [ [ ] < >\noutput 3: ]\n\ninput 4: < ( )\noutput 4: >\n\ninput 5: [ { }\noutput 5: ",
+        "task_name": "489",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { } [\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: }\n\ninput 3: [ { }\noutput 3: ]\n\ninput 4: { [ ]\noutput 4: }\n\ninput 5: ( ) {\noutput 5: ",
+        "task_name": "490",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": "}",
+        "question": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: >\n\ninput 3: ( [ < > ]\noutput 3: )\n\ninput 4: ( { }\noutput 4: )\n\ninput 5: [ ] { < >\noutput 5: ",
+        "task_name": "491",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < [ { } ]\noutput 2: >\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: { < >\noutput 5: ",
+        "task_name": "492",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( { ( ) }\noutput 2: )\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: < < >\noutput 5: ",
+        "task_name": "493",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "]",
+        "question": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: }\n\ninput 3: < [ ]\noutput 3: >\n\ninput 4: ( ( ( ) )\noutput 4: )\n\ninput 5: [ ( { } )\noutput 5: ",
+        "task_name": "494",
+        "response": "]",
+        "response_extracted": "]"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( { < > }\noutput 1: )\n\ninput 2: < < > > (\noutput 2: )\n\ninput 3: < < >\noutput 3: >\n\ninput 4: { [ { } ]\noutput 4: }\n\ninput 5: ( < >\noutput 5: ",
+        "task_name": "495",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": ">",
+        "question": "input 1: < ( )\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ]\n\ninput 3: { [ ] [ ]\noutput 3: }\n\ninput 4: < ( ) > (\noutput 4: )\n\ninput 5: < { [ ] }\noutput 5: ",
+        "task_name": "496",
+        "response": ">",
+        "response_extracted": ">"
+    },
+    {
+        "label": "}",
+        "question": "input 1: { { }\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: }\n\ninput 3: [ < [ ] >\noutput 3: ]\n\ninput 4: < < > > (\noutput 4: )\n\ninput 5: { [ ( ) ]\noutput 5: ",
+        "task_name": "497",
+        "response": "}",
+        "response_extracted": "}"
+    },
+    {
+        "label": ")",
+        "question": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: { ( )\noutput 2: }\n\ninput 3: ( ) [\noutput 3: ]\n\ninput 4: < [ < > ]\noutput 4: >\n\ninput 5: ( ( { } )\noutput 5: ",
+        "task_name": "498",
+        "response": ")",
+        "response_extracted": ")"
+    },
+    {
+        "label": ">",
+        "question": "input 1: [ { }\noutput 1: ]\n\ninput 2: { { }\noutput 2: }\n\ninput 3: ( < < > >\noutput 3: )\n\ninput 4: [ ( )\noutput 4: ]\n\ninput 5: < ( { } )\noutput 5: ",
+        "task_name": "499",
+        "response": ">",
+        "response_extracted": ">"
+    }
+]
